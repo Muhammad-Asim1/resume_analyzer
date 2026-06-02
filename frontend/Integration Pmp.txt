@@ -1,0 +1,42 @@
+ok, so i am making a cv analyzer and job recommendation, so the landing page will take in the cv, it will go to python backend for ai analysis (not yet implemented), and then the page would be routed to Result/Result.js, this is the structure
+Directory: C:\Users\WAQAR AHMED\Desktop\tada\src\Result
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/17/2025   1:05 PM                Courses Part
+d-----         1/17/2025   1:00 PM                CV Part
+d-----         1/17/2025  12:59 PM                Jobs Part
+-a----         1/17/2025   1:03 PM          12190 Result.js
+
+Directory: C:\Users\WAQAR AHMED\Desktop\tada\src\Result\Courses Part
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/17/2025   1:16 PM            444 Courses.js
+-a----         1/17/2025   1:18 PM           1110 CoursesRecom.js
+
+ Directory: C:\Users\WAQAR AHMED\Desktop\tada\src\Result\CV Part
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/17/2025  12:47 PM            394 CV.js
+-a----         1/17/2025  12:48 PM           2052 CVAnalysis.js
+
+Directory: C:\Users\WAQAR AHMED\Desktop\tada\src\Result\Jobs Part
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/17/2025  12:54 PM           1839 JobCards.js
+-a----         1/17/2025   1:04 PM            439 Jobs.js
+
+all of them have dummy data within each of their files, and would be tedious to integrate, for example this is data in course recommendation const coursesData = [
+    { title: "Advanced React Development", provider: "Tech Academy", duration: "6 weeks" },
+    { title: "Python for Data Science", provider: "DataHub", duration: "4 weeks" },
+    { title: "AWS Certified Solutions Architect", provider: "Cloud Institute", duration: "8 weeks" },
+  ];
+
+suggest me how to prepare the data part before integration

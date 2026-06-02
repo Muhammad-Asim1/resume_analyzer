@@ -1,0 +1,805 @@
+body 
+{
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+#Navbar 
+{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.logoAndName
+{
+  display: flex;
+}
+
+.menu 
+{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  /* width: 800px; */
+  padding-left: 406px;
+  
+}
+
+.menu a 
+{
+  color: black;
+  text-decoration: none;
+  font-weight: 560;
+  font-size: 23px;
+  line-height: 18.75px;
+  margin-right: 40px;
+}
+
+.dropdown 
+{
+  position: relative;
+}
+
+.dropdown > a 
+{
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-arrow 
+{
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown-content li a 
+{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover 
+{
+  background-color: #555;
+}
+
+.dropdown-content 
+{
+  display: block;
+}
+
+p 
+{
+  margin: 0;
+}
+
+#getStarted
+{
+  width: 120px;
+  height: 40px;
+  margin-left: 159px;
+  background: linear-gradient(to right, black, #3A7BD5);
+  color: aliceblue;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin-top: 24px;
+}
+
+#getStarted:hover
+{
+  cursor: pointer;
+}
+
+.big 
+{
+  width: 587px;
+  height: 89px;
+  margin-top: 161px;
+  margin-left: 44px;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+.small
+{
+  width: 587px;
+  height: 52px;
+  margin-top: 29px;
+  margin-left: 44px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.startFree
+{
+  width: 250px;
+  height: 60px;
+  margin-top: 53px;
+  margin-left: 44px;
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(to right, black, #3A7BD5); 
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.startFree:hover
+{
+  cursor: pointer;
+}
+
+.simple
+{
+  width: 239px;
+  height: 16px;
+  margin-top: 18px;
+  margin-left: 44px;
+  color: #9A9EA5;
+  font-size: 14px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.middle
+{
+  display: flex;
+  justify-content:space-around;
+}
+
+.JustifyCenter 
+{
+  display: flex;
+  justify-content: center;
+}
+.TextMiddle 
+{
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.bigText 
+{
+  width: 587px;
+  height: 49px;
+  padding-top: 100px;
+  margin-left: 425px;     
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.smallText 
+{
+  width: 587px;
+  height: 26px;
+  margin-top: 16px;
+  margin-left: 425px;     
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.uploadSuper
+{
+  width: 713px;
+  height: 477px;
+  border-radius: 10px;
+  margin-top: 12px;
+  /* margin-left: 350px;      */
+  background-color: white;
+}
+
+.uploadSuper .text 
+{
+  width: 250px;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+}
+
+.uploadSuper p 
+{
+  width: 230px;
+  height: 14px;
+  padding-top: 63px;
+  margin-left: 270px;  
+}
+
+.upload-container 
+{
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 7.55px;
+  margin: 20px auto;
+  width: 340px;
+  height: 179px;
+  background-color: white;
+}
+
+
+.upload-box p 
+{
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 70px; 
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.upload-box small 
+{
+  margin-left: 30px;
+  font-size: 10px;
+  color: #999;
+}
+
+.browse-button 
+{
+  width: 77px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  background-color: #8da2ff; 
+  color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.browse-button:hover 
+{
+  background-color: #7292ff;
+}
+
+/* This will happen when file will be uploaded */
+.file-name 
+{
+  margin-top: 10px;
+  color: #555;
+}
+
+.buttons 
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons .cancel,
+.buttons .upload 
+{
+  border: 1px solid #8da2ff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #8da2ff;
+}
+
+.buttons .upload 
+{
+  background-color: #8da2ff;
+  color: white;
+}
+
+.buttons .cancel:hover 
+{
+  background-color: #f8f8f8;
+}
+
+.buttons .upload:hover 
+{
+  background-color: #7292ff;
+} 
+
+.recomm
+{
+  padding-top: 124px;
+}
+.recomm p 
+{
+  margin-left: 44px;
+  width: 580px;
+  height: 42px;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.recomm-desc p 
+{
+  margin-top: 43px;
+  margin-left: 44px;
+  width: 580px;
+  height: 42px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.started-button
+{
+  width: 250px;
+  height: 60px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  margin-left: 44px;
+  cursor: pointer;
+}
+
+.endTop
+{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.squigly
+{
+  margin-left: 100px;
+  width: 550px;
+}
+
+.footer
+{
+  background-color: black;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.SWB 
+{
+  width: 110px;
+  height: auto;
+    /* marginTop: 31px;
+    marginLeft: 44px; */
+  margin-left: 105px;
+  margin-top: 22px;
+}
+.s1P
+{
+  width: 335px;
+  height: 53px;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-left: 105px;
+  margin-top: 27px;
+}
+.section2 
+{
+  margin-top: 22px;
+  margin-left: 103px;
+}
+.Use 
+{
+  font-weight: 700;
+  font-size: 16px;
+}
+.bullets 
+{
+  margin-top: 16px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.section3 
+{
+  margin-top: 22px;
+  margin-left: 85px;
+}
+
+.section4
+{
+  margin-top: 22px;
+  margin-left: 14px;
+}
+
+.pointer 
+{
+  cursor: pointer;
+}
+.bullets a {
+  color: white;
+  text-decoration: none;
+}
+
+.social 
+{
+  width: 210px;
+  height: 24px;
+  margin-top: 32px;
+}
+
+.results-container 
+{
+  width: 1440px;
+}
+
+
+
+.top-section 
+{
+  background: linear-gradient(to bottom, #F2B1B5 0%, #571397 100%);
+  height: 693px;
+  width: 1440px;
+}
+
+.heading 
+{
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 8px;
+  padding-top: 32px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.job-cards-wrapper 
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px; /* Add padding at bottom of cards */
+}
+
+.job-cards-container 
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto; 
+  gap: 24px;
+}
+
+.job-card 
+{
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job-title 
+{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.company-location 
+{
+  color: #3A7BD5;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tags-container 
+{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.match-tag 
+{
+  background-color: #E6F0FF;
+  color: #3A7BD5;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.salary-tag 
+{
+  background-color: #E7F5E7;
+  color: #2F7A2F;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.job-description 
+{
+  color: #666;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.apply-button 
+{
+  background: linear-gradient(to right, black, #3A7BD5);
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+.apply-button:hover 
+{
+  opacity: 0.9;
+}
+
+.bottom-section 
+{
+  background: linear-gradient(to bottom, #571397 28%, #F2B1B5 83%);
+  height: 693px;
+  width: 1440px;
+  padding-top: 80px;
+}
+
+
+/* CV analysis part  */
+.cv-analysis 
+{
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.analysis-title 
+{
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.skills-grid 
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.skills-card 
+{
+  background-color: #f8f8f8;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.skills-title 
+{
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.skills-list 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li 
+{
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.experience-summary 
+{
+  margin-bottom: 32px;
+}
+
+.section-title 
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.summary-text 
+{
+  color: #666;
+  line-height: 1.6;
+}
+
+.suggestions-list 
+{
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #666;
+}
+
+.suggestions-list li 
+{
+  margin-bottom: 8px;
+}
+
+/* Recommended Courses Part  */
+.courses-recommendations 
+{
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 8px;
+  margin-top: 40px; /* Adjust as needed */
+}
+
+.recommendations-title 
+{
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.courses-grid 
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust columns based on content */
+  gap: 20px;
+}
+
+.course-card 
+{
+  background-color: #f8f8f8;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.course-title 
+{
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.course-info 
+{
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.course-button 
+{
+  padding: 8px 20px;
+  background-color: #571397;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course-button:hover 
+{
+  background-color: #F2B1B5;
+}
+
+.cv-ratings 
+{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.cv-card 
+{
+  font-weight: 500;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cv-name 
+{
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.cv-ratings-list 
+{
+  color: #666;
+  list-style: none;
+  padding: 0;
+}
+
+.cv-ratings-list li
+{
+  margin: 4px 0;
+  
+}
+
+.Non-Cv-quality 
+{
+  font-weight: 50;
+  font-size: 16px;
+}
+
+.Cv-quality
+{
+  font-weight: 650;
+  font-size: 20px;
+}
+
+.center 
+{
+  display: flex;
+  justify-content: center;
+}
+
+.CV-Heading 
+{
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  /* padding-top: 32px; */
+  margin-left: 110px;
+}
