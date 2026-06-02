@@ -1,0 +1,10 @@
+flask
+flask-cors
+torch
+sentence-transformers
+pandas
+pdfplumber
+PyPDF2
+language-tool-python
+textstat
+pyspellchecker
